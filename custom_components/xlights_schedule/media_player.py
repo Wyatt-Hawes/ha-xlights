@@ -310,7 +310,7 @@ class xLightsSchedule(MediaPlayerEntity):
             media_content_id="Available Playlists",
             media_content_type="playlist",
             thumbnail=None,
-            title="Title Playlists",
+            title="Playlists",
             children= self.all_playlists_payload()
         )
         
